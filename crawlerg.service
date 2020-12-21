@@ -1,0 +1,10 @@
+[Unit]
+Description=crawlerg noise generator
+
+[Service]
+Restart=always
+RestartSec=1
+ExecStart=/opt/crawlerg/crawlerg
+
+[Install]
+WantedBy=default.target
